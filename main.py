@@ -1,5 +1,12 @@
 print("Olá turma do Python!")
 print("Tudo joia!")
-nome: str = input("Qual é o seu nome? ")
+
+nome = input("Qual é o seu nome? ")
 print(f"Olá, {nome}!")
-print("Thaisa aqui.")
+
+idade = int(input("Qual a sua idade? "))
+
+if idade >= 18:
+    print("Você é maior de idade.")
+else:
+    print("Você é menor de idade.")
